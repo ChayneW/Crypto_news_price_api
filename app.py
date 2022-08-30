@@ -73,8 +73,6 @@ def save_csv():
 MY_EMAIL = "YOUR EMAIL"
 PASSWORD = "YOUR PASSWORD"
 
-TARGET_EMAIL = "TARGET EMAIL"
-
 def send_email():
     email = input(f"What's your email? (press 'n' for no email.) ").lower()
 
